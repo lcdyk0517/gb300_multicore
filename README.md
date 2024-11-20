@@ -107,11 +107,11 @@ To ssh into the container
 - choose a directory to contain all this
 - decide if you want EVERYTHING (there are a lot of cores!)
     - YES, I want ALL the cores!
-        - `git clone --recurse-submodules --shallow-submodules https://github.com/madcock/sf2000_multicore`
+        - `git clone --recurse-submodules --shallow-submodules https://github.com/lcdyk0517/gb300_multicore`
         - wait for a long while
     - NO, I want to select individual cores
-        - `git clone https://github.com/madcock/sf2000_multicore`
-        - `cd sf2000_multicore/libs/libretro-common`
+        - `git clone https://github.com/lcdyk0517/gb300_multicore`
+        - `cd gb300_multicore/libs/libretro-common`
         - `git submodule update --init .`
         - `cd ../..`
         - choose a core to grab, for example, picodrive
